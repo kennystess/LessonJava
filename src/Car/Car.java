@@ -1,4 +1,4 @@
-package Car;
+package src.Car;
 
 public class Car {
     private final String make;
@@ -20,7 +20,8 @@ public class Car {
         System.out.println("Марка автомобіля: " + make);
         System.out.println("Модель автомобіля: " + model);
         System.out.println("Рік випуску: " + year);
-        System.out.println("Пробіг: " + mileage);
+        System.out.println("Пробіг: " + mileage );
+        System.out.println(" ");
     }
 }
 
