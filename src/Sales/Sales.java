@@ -8,12 +8,12 @@ public class Sales {
 
         if (totalPrice > 10_000) {
             discount = 0.15;
-        } else if (totalPrice > 5000 ) {
+        } else if (totalPrice > 5000) {
             discount = 0.10;
         } else if (totalPrice > 1000) {
             discount = 0.05;
         }
-        if (isVip){
+        if (isVip) {
             discount += 0.05;
         }
 
